@@ -1,11 +1,15 @@
 {
   "name": "chai-backend",
   "version": "1.0.0",
-  "description": "Backend projec",
+  "description": "Backend project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Saurav Kumar",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
